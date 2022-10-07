@@ -9,11 +9,10 @@
 * ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 * Moment.js
 ## Usage
-
+![Application screenshot](./assets/application.png)
+[Live Link]("https://teedaa.github.io/work-day-scheduler/)
 ## Credits
 Pengteda Cheng 
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-[GitHub]("https://github.com/teedaa")
-![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
-[LinkedIn]("https://linkedin.com/in/pengteda-cheng)
-[Markdown Badges](https://github.com/Ileriayo/markdown-badges)
+* [<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">]("https://github.com/teedaa")
+* [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white">]("https://linkedin.com/in/pengteda-cheng")
+* [Markdown Badges](https://github.com/Ileriayo/markdown-badges)

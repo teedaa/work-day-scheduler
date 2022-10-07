@@ -1,23 +1,25 @@
 //variables
 
-var currentDate = moment().format("[Today is] LL");
+var currentDate = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
 var currentDay = $("#currentDay");
 var saveBtn = $(".saveBtn");
 
 
-$(document).ready(function (){
     
 //display current date
-currentDay.append(currentDate);
+currentDay.text("Today is " + currentDate);
 
 //save current schedule text to local storage
 
 saveBtn.on("click", function(event){
   event.preventDefault();
   var text = $(this).siblings(".description").val();
-  var time = $(this).siblings("id").val();
+  var time = (this.id);
     localStorage.setItem(time, text);
 })
+setInterval(function(){
+    currentDay.text("Today is " + currentDate);
+},1000)
 
 //display schedule
 
@@ -54,6 +56,6 @@ console.log(timeBlock)
     });
 }
 colorCodeTime();
-})
+setInterval(colorCodeTime(), 1000);
 
 
