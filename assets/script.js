@@ -1,13 +1,16 @@
 //variables
 
-var currentDate = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+
 var currentDay = $("#currentDay");
 var saveBtn = $(".saveBtn");
 
 
     
 //display current date
-currentDay.text("Today is " + currentDate);
+function displayCurrentDay(){
+    var currentTime = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+    currentDay.text(currentTime)
+}
 
 //save current schedule text to local storage
 
@@ -17,10 +20,7 @@ saveBtn.on("click", function(event){
   var time = (this.id);
     localStorage.setItem(time, text);
 })
-setInterval(function(){
-    currentDay.text("Today is " + currentDate);
-},1000)
-
+setInterval(displayCurrentDay,1000);
 //display schedule
 
 $("#hour-9 .description").val(localStorage.getItem("9"));
