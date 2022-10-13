@@ -10,9 +10,9 @@
 * Moment.js
 ## Usage
 ![Application screenshot](./assets/application.png)
-[Live Link]("https://teedaa.github.io/work-day-scheduler/)
+[Live Link](https://teedaa.github.io/work-day-scheduler/)
 ## Credits
 Pengteda Cheng 
-* [<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">]("https://github.com/teedaa")
-* [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white">]("https://linkedin.com/in/pengteda-cheng")
+* [<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">](https://github.com/teedaa)
+* [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white">](https://linkedin.com/in/pengteda-cheng)
 * [Markdown Badges](https://github.com/Ileriayo/markdown-badges)
